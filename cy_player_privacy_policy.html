@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CY Player — Privacy Policy</title>
+<style>
+  :root {
+    --accent: #8b5cf6;
+    --accent-dark: #7c3aed;
+    --bg: #0f0f1a;
+    --card: #1a1a2e;
+    --text: #f5f5f7;
+    --muted: #a0a0b0;
+    --border: rgba(255,255,255,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  body[dir="rtl"] { font-family: 'Segoe UI', Tahoma, 'Noto Naskh Arabic', sans-serif; }
+  .header {
+    background: linear-gradient(135deg, #6d28d9 0%, #8b5cf6 50%, #a78bfa 100%);
+    padding: 48px 24px;
+    text-align: center;
+  }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header p { opacity: 0.9; font-size: 14px; }
+  .container { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
+  .lang-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 32px;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 12px 0;
+    z-index: 10;
+  }
+  .lang-btn {
+    background: var(--card);
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 8px 18px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .lang-btn:hover { color: var(--text); border-color: var(--accent); }
+  .lang-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .section h2 {
+    color: var(--accent);
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .section p, .section li { color: var(--muted); font-size: 14.5px; }
+  .section ul { padding-left: 20px; margin-top: 8px; }
+  body[dir="rtl"] .section ul { padding-left: 0; padding-right: 20px; }
+  .section li { margin-bottom: 6px; }
+  .lang-content { display: none; }
+  .lang-content.active { display: block; }
+  .footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 24px;
+    border-top: 1px solid var(--border);
+  }
+  @media (max-width: 600px) {
+    .header h1 { font-size: 22px; }
+    .section { padding: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CY Player</h1>
+  <p id="header-sub">Privacy Policy &amp; Terms of Use</p>
+</div>
+
+<div class="container">
+  <!-- Language selector -->
+  <div class="lang-bar" id="lang-bar">
+    <button class="lang-btn active" data-lang="en">English</button>
+    <button class="lang-btn" data-lang="bn">বাংলা</button>
+    <button class="lang-btn" data-lang="ja">日本語</button>
+    <button class="lang-btn" data-lang="zh">简体中文</button>
+    <button class="lang-btn" data-lang="ko">한국어</button>
+    <button class="lang-btn" data-lang="ar">العربية</button>
+  </div>
+
+  <!-- ============ ENGLISH ============ -->
+  <div class="lang-content active" id="lang-en" lang="en">
+    <div class="section">
+      <h2>Effective Date: August 16, 2026</h2>
+      <p>This Privacy Policy explains how CY Player ("we", "our", "the app") collects, uses, and protects your information when you use our media player application.</p>
+    </div>
+    <div class="section">
+      <h2>1. Information We Collect</h2>
+      <p>CY Player accesses media files (videos, images, audio) stored on your device solely to display and play them within the app. We do <strong>NOT</strong> upload, transmit, or share any of your personal media files with third parties.</p>
+      <ul>
+        <li><strong>Storage permissions</strong> — to read and play media files on your device</li>
+        <li><strong>Notification permission</strong> — for playback controls and new media alerts</li>
+        <li><strong>Biometric data (optional)</strong> — for the Privacy Vault feature, processed entirely on-device</li>
+        <li><strong>Network access</strong> — only used for online features you explicitly use (YouTube, subtitles, casting)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. How We Use Your Information</h2>
+      <p>All data processing happens locally on your device. CY Player does not connect to external servers for user data. Your media library, playback history, favorites, and privacy vault contents remain exclusively on your device.</p>
+    </div>
+    <div class="section">
+      <h2>3. Third-Party Services</h2>
+      <p>CY Player uses the following third-party services:</p>
+      <ul>
+        <li><strong>YouTube API Services</strong> — for searching and playing online videos. Subject to Google's Terms of Service and Privacy Policy.</li>
+        <li><strong>OpenSubtitles API</strong> — for fetching subtitle files (optional feature).</li>
+      </ul>
+      <p>These services may collect usage data as described in their respective privacy policies. We do not control their data practices.</p>
+    </div>
+    <div class="section">
+      <h2>4. Data Storage &amp; Security</h2>
+      <ul>
+        <li>All app data is stored locally on your device.</li>
+        <li>The Privacy Vault uses SHA-256 hashing for PIN verification.</li>
+        <li>Biometric authentication uses Android's native KeyStore system.</li>
+        <li>We do not maintain cloud backups of your data.</li>
+        <li>Files moved to the Privacy Vault remain on your device, protected by your PIN.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. Children's Privacy</h2>
+      <p>CY Player is not directed at children under 13. We do not knowingly collect information from children. If you believe a child has provided us information, please contact us and we will delete it.</p>
+    </div>
+    <div class="section">
+      <h2>6. Changes to This Policy</h2>
+      <p>We may update this privacy policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy. We will notify you of significant changes within the app.</p>
+    </div>
+    <div class="section">
+      <h2>7. Contact</h2>
+      <p>For questions about this privacy policy or your data, contact us at:</p>
+      <p><strong>Organization: Cybrotechnology</strong></p>
+      <p><strong>Email: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>Website:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a> — visit our website to learn more about our company.</p>
+    </div>
+  </div>
+
+  <!-- ============ BENGALI (বাংলা) ============ -->
+  <div class="lang-content" id="lang-bn" lang="bn">
+    <div class="section">
+      <h2>কার্যকর তারিখ: ১৬ আগস্ট, ২০২৬</h2>
+      <p>এই প্রাইভেসি পলিসিটি ব্যাখ্যা করে যে সিওয়াই প্লেয়ার ("আমরা", "আমাদের", "অ্যাপ") আপনার মিডিয়া প্লেয়ার অ্যাপ্লিকেশন ব্যবহার করার সময় আপনার তথ্য কীভাবে সংগ্রহ, ব্যবহার এবং সুরক্ষা করে।</p>
+    </div>
+    <div class="section">
+      <h2>১. আমরা কী তথ্য সংগ্রহ করি</h2>
+      <p>সিওয়াই প্লেয়ার আপনার ডিভাইসে সংরক্ষিত মিডিয়া ফাইল (ভিডিও, ছবি, অডিও) শুধুমাত্র অ্যাপের ভিতরে প্রদর্শন ও চালানোর জন্য অ্যাক্সেস করে। আমরা আপনার ব্যক্তিগত মিডিয়া ফাইল <strong>কখনই</strong> আপলোড, প্রেরণ বা তৃতীয় পক্ষের সাথে শেয়ার করি না।</p>
+      <ul>
+        <li><strong>স্টোরেজ অনুমতি</strong> — আপনার ডিভাইসে মিডিয়া ফাইল পড়া ও চালানোর জন্য</li>
+        <li><strong>নোটিফিকেশন অনুমতি</strong> — প্লেব্যাক কন্ট্রোল এবং নতুন মিডিয়া সতর্কতার জন্য</li>
+        <li><strong>বায়োমেট্রিক ডেটা (ঐচ্ছিক)</strong> — প্রাইভেসি ভল্ট ফিচারের জন্য, সম্পূর্ণ ডিভাইসেই প্রসেস হয়</li>
+        <li><strong>নেটওয়ার্ক অ্যাক্সেস</strong> — শুধুমাত্র অনলাইন ফিচারগুলোর জন্য যা আপনি স্পষ্টভাবে ব্যবহার করেন (ইউটিউব, সাবটাইটেল, কাস্ট)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>২. আমরা কীভাবে আপনার তথ্য ব্যবহার করি</h2>
+      <p>সব ডেটা প্রসেসিং আপনার ডিভাইসেই ঘটে। সিওয়াই প্লেয়ার ব্যবহারকারীর তথ্যের জন্য বাহ্যিক সার্ভারে সংযোগ করে না। আপনার মিডিয়া লাইব্রেরি, প্লেব্যাক ইতিহাস, ফেভারিট এবং প্রাইভেসি ভল্টের বিষয়বস্তু সম্পূর্ণ আপনার ডিভাইসেই থাকে।</p>
+    </div>
+    <div class="section">
+      <h2>৩. তৃতীয় পক্ষের সার্ভিস</h2>
+      <p>সিওয়াই প্লেয়ার নিম্নলিখিত তৃতীয় পক্ষের সার্ভিসগুলো ব্যবহার করে:</p>
+      <ul>
+        <li><strong>ইউটিউব API সার্ভিস</strong> — অনলাইন ভিডিও সার্চ ও প্লে করার জন্য। গুগলের টার্মস অব সার্ভিস এবং প্রাইভেসি পলিসির সাপেক্ষে।</li>
+        <li><strong>OpenSubtitles API</strong> — সাবটাইটেল ফাইল আনার জন্য (ঐচ্ছিক ফিচার)।</li>
+      </ul>
+      <p>এই সার্ভিসগুলো তাদের নিজ নিজ প্রাইভেসি পলিসিতে বর্ণিত ব্যবহারের ডেটা সংগ্রহ করতে পারে। আমরা তাদের ডেটা অনুশীলন নিয়ন্ত্রণ করি না।</p>
+    </div>
+    <div class="section">
+      <h2>৪. ডেটা স্টোরেজ ও নিরাপত্তা</h2>
+      <ul>
+        <li>সব অ্যাপ ডেটা আপনার ডিভাইসে স্থানীয়ভাবে সংরক্ষিত থাকে।</li>
+        <li>প্রাইভেসি ভল্ট পিন যাচাইয়ের জন্য SHA-256 হ্যাশিং ব্যবহার করে।</li>
+        <li>বায়োমেট্রিক অথেনটিকেশন অ্যান্ড্রয়েডের নেটিভ KeyStore সিস্টেম ব্যবহার করে।</li>
+        <li>আমরা আপনার ডেটার ক্লাউড ব্যাকআপ রাখি না।</li>
+        <li>প্রাইভেসি ভল্টে সরানো ফাইলগুলো আপনার ডিভাইসেই থাকে, আপনার পিন দ্বারা সুরক্ষিত।</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>৫. শিশুদের গোপনীয়তা</h2>
+      <p>সিওয়াই প্লেয়ার ১৩ বছরের কম বয়সী শিশুদের জন্য নির্দেশিত নয়। আমরা সচেতনভাবে শিশুদের থেকে তথ্য সংগ্রহ করি না। যদি আপনি বিশ্বাস করেন যে একটি শিশু আমাদের তথ্য দিয়েছে, অনুগ্রহ করে আমাদের সাথে যোগাযোগ করুন এবং আমরা তা মুছে ফেলব।</p>
+    </div>
+    <div class="section">
+      <h2>৬. এই নীতির পরিবর্তন</h2>
+      <p>আমরা সময়ে সময়ে এই প্রাইভেসি পলিসি আপডেট করতে পারি। পরিবর্তনের পর অ্যাপের ক্রমাগত ব্যবহার আপডেটেড নীতির গ্রহণযোগ্যতা গঠন করে। আমরা অ্যাপের ভিতরে উল্লেখযোগ্য পরিবর্তন সম্পর্কে আপনাকে জানাব।</p>
+    </div>
+    <div class="section">
+      <h2>৭. যোগাযোগ</h2>
+      <p>এই প্রাইভেসি পলিসি বা আপনার ডেটা সম্পর্কে প্রশ্ন থাকলে আমাদের সাথে যোগাযোগ করুন:</p>
+      <p><strong>প্রতিষ্ঠান: Cybrotechnology</strong></p>
+      <p><strong>ইমেইল: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>ওয়েবসাইট:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a> — আমাদের কোম্পানি সম্পর্কে আরও জানতে আমাদের ওয়েবসাইটে আসুন।</p>
+    </div>
+  </div>
+
+  <!-- ============ JAPANESE (日本語) ============ -->
+  <div class="lang-content" id="lang-ja" lang="ja">
+    <div class="section">
+      <h2>発効日: 2026年8月16日</h2>
+      <p>このプライバシーポリシーは、CY Player（「当社」、「本アプリ」）がメディアプレーヤーアプリケーションをご利用の際に、お客様の情報をどのように収集・利用・保護するかを説明するものです。</p>
+    </div>
+    <div class="section">
+      <h2>1. 収集する情報</h2>
+      <p>CY Playerは、お客様のデバイスに保存されているメディアファイル（動画、画像、音声）を、アプリ内での表示・再生の目的のみでアクセスします。お客様の個人メディアファイルを第三者にアップロード、送信、共有することは<strong>一切</strong>ありません。</p>
+      <ul>
+        <li><strong>ストレージ権限</strong> — デバイス上のメディアファイルの読み取りと再生のため</li>
+        <li><strong>通知権限</strong> — 再生コントロールと新着メディアのお知らせのため</li>
+        <li><strong>生体認証データ（任意）</strong> — プライバシーボールト機能用。すべてデバイス内で処理されます</li>
+        <li><strong>ネットワークアクセス</strong> — 明示的に使用するオンライン機能（YouTube、字幕、キャスト）のみに使用</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. 情報の利用方法</h2>
+      <p>すべてのデータ処理はお客様のデバイス上で行われます。CY Playerはユーザーデータのため外部サーバーに接続しません。メディアライブラリ、再生履歴、お気に入り、プライバシーボールトの内容はすべてお客様のデバイス上にのみ残ります。</p>
+    </div>
+    <div class="section">
+      <h2>3. サードパーティサービス</h2>
+      <p>CY Playerは以下のサードパーティサービスを使用します:</p>
+      <ul>
+        <li><strong>YouTube APIサービス</strong> — オンライン動画の検索・再生のため。Googleの利用規約とプライバシーポリシーが適用されます。</li>
+        <li><strong>OpenSubtitles API</strong> — 字幕ファイルの取得用（任意機能）。</li>
+      </ul>
+      <p>これらのサービスは、各社のプライバシーポリシーに記載されている通り、利用データを収集する場合があります。当社はそれらのデータ慣行を管理することはできません。</p>
+    </div>
+    <div class="section">
+      <h2>4. データの保存とセキュリティ</h2>
+      <ul>
+        <li>すべてのアプリデータはお客様のデバイスにローカル保存されます。</li>
+        <li>プライバシーボールトはPIN検証にSHA-256ハッシュを使用します。</li>
+        <li>生体認証はAndroid標準のKeyStoreシステムを使用します。</li>
+        <li>データのクラウドバックアップは行いません。</li>
+        <li>プライバシーボールトに移動したファイルは、PINで保護された状態でデバイス上に残ります。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. 子どものプライバシー</h2>
+      <p>CY Playerは13歳未満の子どもを対象としていません。当社は子どもから意図的に情報を収集することはありません。子どもが情報を提供したと思われる場合は、ご連絡ください。直ちに削除いたします。</p>
+    </div>
+    <div class="section">
+      <h2>6. 本ポリシーの変更</h2>
+      <p>本プライバシーポリシーは随時更新されることがあります。変更後もアプリを継続してご利用いただくことで、更新されたポリシーに同意したものとみなされます。重要な変更についてはアプリ内でお知らせします。</p>
+    </div>
+    <div class="section">
+      <h2>7. お問い合わせ</h2>
+      <p>本プライバシーポリシーまたはデータに関するご質問は、以下までご連絡ください:</p>
+      <p><strong>組織: Cybrotechnology</strong></p>
+      <p><strong>メール: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>ウェブサイト:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a> — 当社について詳しくはウェブサイトをご覧ください。</p>
+    </div>
+  </div>
+
+  <!-- ============ CHINESE (简体中文) ============ -->
+  <div class="lang-content" id="lang-zh" lang="zh">
+    <div class="section">
+      <h2>生效日期：2026年8月16日</h2>
+      <p>本隐私政策说明 CY Player（"我们"、"本应用"）在您使用我们的媒体播放器应用程序时，如何收集、使用和保护您的信息。</p>
+    </div>
+    <div class="section">
+      <h2>1. 我们收集的信息</h2>
+      <p>CY Player 访问您设备上存储的媒体文件（视频、图片、音频），仅用于在应用内显示和播放。我们<strong>不会</strong>上传、传输或与第三方共享您的个人媒体文件。</p>
+      <ul>
+        <li><strong>存储权限</strong> — 用于读取和播放您设备上的媒体文件</li>
+        <li><strong>通知权限</strong> — 用于播放控制和新的媒体提醒</li>
+        <li><strong>生物识别数据（可选）</strong> — 用于隐私保险库功能，完全在设备上处理</li>
+        <li><strong>网络访问</strong> — 仅用于您明确使用的在线功能（YouTube、字幕、投屏）</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. 我们如何使用您的信息</h2>
+      <p>所有数据处理都在您的设备上进行。CY Player 不会为了用户数据而连接外部服务器。您的媒体库、播放历史、收藏和隐私保险库内容完全保留在您的设备上。</p>
+    </div>
+    <div class="section">
+      <h2>3. 第三方服务</h2>
+      <p>CY Player 使用以下第三方服务：</p>
+      <ul>
+        <li><strong>YouTube API 服务</strong> — 用于搜索和播放在线视频。受 Google 服务条款和隐私政策约束。</li>
+        <li><strong>OpenSubtitles API</strong> — 用于获取字幕文件（可选功能）。</li>
+      </ul>
+      <p>这些服务可能按照各自隐私政策中的描述收集使用数据。我们无法控制它们的数据处理方式。</p>
+    </div>
+    <div class="section">
+      <h2>4. 数据存储与安全</h2>
+      <ul>
+        <li>所有应用数据都存储在您的设备本地。</li>
+        <li>隐私保险库使用 SHA-256 哈希进行 PIN 验证。</li>
+        <li>生物识别认证使用 Android 原生 KeyStore 系统。</li>
+        <li>我们不对您的数据进行云备份。</li>
+        <li>移动到隐私保险库的文件仍保留在您的设备上，由您的 PIN 保护。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. 儿童隐私</h2>
+      <p>CY Player 不面向 13 岁以下儿童。我们不会故意收集儿童的信息。如果您认为儿童向我们提供了信息，请联系我们，我们将予以删除。</p>
+    </div>
+    <div class="section">
+      <h2>6. 本政策的变更</h2>
+      <p>我们可能不时更新本隐私政策。变更后继续使用应用即表示接受更新后的政策。我们将在应用内通知您重大变更。</p>
+    </div>
+    <div class="section">
+      <h2>7. 联系我们</h2>
+      <p>如有关于本隐私政策或您的数据的问题，请联系我们：</p>
+      <p><strong>组织：Cybrotechnology</strong></p>
+      <p><strong>电子邮件：cybrotechnology1@gmail.com</strong></p>
+      <p><strong>网站：</strong><a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a> — 访问我们的网站以了解更多关于我们公司的信息。</p>
+    </div>
+  </div>
+
+  <!-- ============ KOREAN (한국어) ============ -->
+  <div class="lang-content" id="lang-ko" lang="ko">
+    <div class="section">
+      <h2>시행일: 2026년 8월 16일</h2>
+      <p>이 개인정보 처리방침은 CY Player("당사", "앱")가 미디어 플레이어 애플리케이션을 이용하는 동안 귀하의 정보를 수집, 사용 및 보호하는 방법을 설명합니다.</p>
+    </div>
+    <div class="section">
+      <h2>1. 수집하는 정보</h2>
+      <p>CY Player는 기기에 저장된 미디어 파일(동영상, 이미지, 오디오)을 앱 내에서 표시하고 재생하는 목적으로만 접근합니다. 당사는 귀하의 개인 미디어 파일을 제3자에게 업로드, 전송 또는 공유하지 <strong>않습니다</strong>.</p>
+      <ul>
+        <li><strong>저장소 권한</strong> — 기기의 미디어 파일을 읽고 재생하기 위해</li>
+        <li><strong>알림 권한</strong> — 재생 제어 및 새 미디어 알림을 위해</li>
+        <li><strong>생체인식 데이터(선택)</strong> — 개인정보 보관함 기능용. 전적으로 기기 내에서 처리됩니다</li>
+        <li><strong>네트워크 접근</strong> — 명시적으로 사용하는 온라인 기능(YouTube, 자막, 캐스팅)에만 사용</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. 정보 사용 방법</h2>
+      <p>모든 데이터 처리는 기기에서 로컬로 이루어집니다. CY Player는 사용자 데이터를 위해 외부 서버에 연결하지 않습니다. 미디어 라이브러리, 재생 기록, 즐겨찾기 및 개인정보 보관함 내용은 전적으로 기기에만 남아 있습니다.</p>
+    </div>
+    <div class="section">
+      <h2>3. 제3자 서비스</h2>
+      <p>CY Player는 다음 제3자 서비스를 사용합니다:</p>
+      <ul>
+        <li><strong>YouTube API 서비스</strong> — 온라인 동영상 검색 및 재생용. Google 서비스 약관 및 개인정보 처리방침이 적용됩니다.</li>
+        <li><strong>OpenSubtitles API</strong> — 자막 파일 가져오기용(선택 기능).</li>
+      </ul>
+      <p>이러한 서비스는 각각의 개인정보 처리방침에 설명된 대로 사용 데이터를 수집할 수 있습니다. 당사는 해당 데이터 관행을 통제할 수 없습니다.</p>
+    </div>
+    <div class="section">
+      <h2>4. 데이터 저장 및 보안</h2>
+      <ul>
+        <li>모든 앱 데이터는 기기에 로컬로 저장됩니다.</li>
+        <li>개인정보 보관함은 PIN 확인에 SHA-256 해시를 사용합니다.</li>
+        <li>생체인식 인증은 Android 기본 KeyStore 시스템을 사용합니다.</li>
+        <li>데이터의 클라우드 백업을 유지하지 않습니다.</li>
+        <li>개인정보 보관함으로 이동한 파일은 PIN으로 보호되어 기기에 남아 있습니다.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. 아동의 개인정보</h2>
+      <p>CY Player는 13세 미만 아동을 대상으로 하지 않습니다. 당사는 아동으로부터 의도적으로 정보를 수집하지 않습니다. 아동이 정보를 제공했다고 생각되면 연락해 주시기 바랍니다. 즉시 삭제하겠습니다.</p>
+    </div>
+    <div class="section">
+      <h2>6. 정책 변경</h2>
+      <p>당사는 수시로 이 개인정보 처리방침을 업데이트할 수 있습니다. 변경 후에도 앱을 계속 사용하면 업데이트된 정책에 동의한 것으로 간주됩니다. 중요한 변경 사항은 앱 내에서 알려드립니다.</p>
+    </div>
+    <div class="section">
+      <h2>7. 연락처</h2>
+      <p>이 개인정보 처리방침 또는 귀하의 데이터에 대한 질문이 있으면 연락해 주십시오:</p>
+      <p><strong>기관: Cybrotechnology</strong></p>
+      <p><strong>이메일: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>웹사이트:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a> — 저희 회사에 대해 더 자세히 알아보려면 웹사이트를 방문하세요.</p>
+    </div>
+  </div>
+
+  <!-- ============ ARABIC (العربية) ============ -->
+  <div class="lang-content" id="lang-ar" lang="ar" dir="rtl">
+    <div class="section">
+      <h2>تاريخ السريان: 16 أغسطس 2026</h2>
+      <p>توضح سياسة الخصوصية هذه كيف يقوم تطبيق CY Player ("نحن"، "التطبيق") بجمع معلوماتك واستخدامها وحمايتها عند استخدامك لتطبيق مشغل الوسائط الخاص بنا.</p>
+    </div>
+    <div class="section">
+      <h2>1. المعلومات التي نجمعها</h2>
+      <p>يصل CY Player إلى ملفات الوسائط (الفيديو والصور والصوت) المخزنة على جهازك فقط لعرضها وتشغيلها داخل التطبيق. نحن <strong>لا</strong> نرفع أو نرسل أو نشارك ملفات الوسائط الشخصية الخاصة بك مع أي طرف ثالث.</p>
+      <ul>
+        <li><strong>أذونات التخزين</strong> — لقراءة وتشغيل ملفات الوسائط على جهازك</li>
+        <li><strong>إذن الإشعارات</strong> — لعناصر التحكم في التشغيل وتنبيهات الوسائط الجديدة</li>
+        <li><strong>البيانات البيومترية (اختياري)</strong> — لميزة الخزنة الخاصة، تتم معالجتها بالكامل على الجهاز</li>
+        <li><strong>الوصول إلى الشبكة</strong> — يستخدم فقط للميزات عبر الإنترنت التي تستخدمها صراحةً (يوتيوب، الترجمة، البث)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. كيف نستخدم معلوماتك</h2>
+      <p>تتم جميع معالجة البيانات محليًا على جهازك. لا يتصل CY Player بخوادم خارجية لبيانات المستخدم. تبقى مكتبة الوسائط الخاصة بك وسجل التشغيل والمفضلة ومحتويات الخزنة الخاصة حصريًا على جهازك.</p>
+    </div>
+    <div class="section">
+      <h2>3. خدمات الطرف الثالث</h2>
+      <p>يستخدم CY Player خدمات الطرف الثالث التالية:</p>
+      <ul>
+        <li><strong>خدمات YouTube API</strong> — للبحث عن مقاطع الفيديو عبر الإنترنت وتشغيلها. تخضع لشروط خدمة Google وسياسة الخصوصية الخاصة بها.</li>
+        <li><strong>OpenSubtitles API</strong> — لجلب ملفات الترجمة (ميزة اختيارية).</li>
+      </ul>
+      <p>قد تجمع هذه الخدمات بيانات الاستخدام كما هو موصوف في سياسات الخصوصية الخاصة بها. نحن لا نتحكم في ممارساتها الخاصة بالبيانات.</p>
+    </div>
+    <div class="section">
+      <h2>4. تخزين البيانات والأمان</h2>
+      <ul>
+        <li>يتم تخزين جميع بيانات التطبيق محليًا على جهازك.</li>
+        <li>تستخدم الخزنة الخاصة تشفير SHA-256 للتحقق من رمز PIN.</li>
+        <li>يستخدم المصادقة البيومترية نظام KeyStore الأصلي لنظام أندرويد.</li>
+        <li>لا نحتفظ بنسخ احتياطية سحابية لبياناتك.</li>
+        <li>تبقى الملفات المنقولة إلى الخزنة الخاصة على جهازك، محمية برمز PIN الخاص بك.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. خصوصية الأطفال</h2>
+      <p>CY Player غير موجه للأطفال دون سن 13 عامًا. نحن لا نجمع معلومات من الأطفال عن علم. إذا كنت تعتقد أن طفلاً قد زودنا بمعلومات، فيرجى الاتصال بنا وسنقوم بحذفها.</p>
+    </div>
+    <div class="section">
+      <h2>6. التغييرات على هذه السياسة</h2>
+      <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. استمرار استخدام التطبيق بعد التغييرات يشكل قبولاً للسياسة المحدثة. سنخطرك بالتغييرات المهمة داخل التطبيق.</p>
+    </div>
+    <div class="section">
+      <h2>7. الاتصال بنا</h2>
+      <p>لأي أسئلة حول سياسة الخصوصية هذه أو بياناتك، تواصل معنا عبر:</p>
+      <p><strong>المنظمة: Cybrotechnology</strong></p>
+      <p><strong>البريد الإلكتروني: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>الموقع الإلكتروني:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a> — قم بزيارة موقعنا الإلكتروني لمعرفة المزيد عن شركتنا.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    CY Player &copy; 2026 &nbsp;|&nbsp; <span id="footer-note">All rights reserved</span>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.lang-btn');
+    var contents = document.querySelectorAll('.lang-content');
+
+    function switchLang(lang) {
+      buttons.forEach(function (b) {
+        b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+      });
+      contents.forEach(function (c) {
+        c.classList.toggle('active', c.id === 'lang-' + lang);
+      });
+      var el = document.getElementById('lang-' + lang);
+      if (el) {
+        document.documentElement.lang = lang;
+        document.documentElement.dir = el.getAttribute('dir') || 'ltr';
+      }
+      try {
+        localStorage.setItem('cy_lang', lang);
+      } catch (e) {}
+    }
+
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { switchLang(b.getAttribute('data-lang')); });
+    });
+
+    var saved = null;
+    try { saved = localStorage.getItem('cy_lang'); } catch (e) {}
+    if (saved && document.getElementById('lang-' + saved)) {
+      switchLang(saved);
+    }
+  })();
+</script>
+
+</body>
+</html>
