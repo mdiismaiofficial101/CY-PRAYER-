@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CY Player — Privacy Policy</title>
+<style>
+  :root {
+    --accent: #8b5cf6;
+    --accent-dark: #7c3aed;
+    --bg: #0f0f1a;
+    --card: #1a1a2e;
+    --text: #f5f5f7;
+    --muted: #a0a0b0;
+    --border: rgba(255,255,255,0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  body[dir="rtl"] { font-family: 'Segoe UI', Tahoma, 'Noto Naskh Arabic', sans-serif; }
+  .header {
+    background: linear-gradient(135deg, #6d28d9 0%, #8b5cf6 50%, #a78bfa 100%);
+    padding: 48px 24px;
+    text-align: center;
+  }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header p { opacity: 0.9; font-size: 14px; }
+  .container { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
+  .lang-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 32px;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 12px 0;
+    z-index: 10;
+  }
+  .lang-btn {
+    background: var(--card);
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 8px 18px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .lang-btn:hover { color: var(--text); border-color: var(--accent); }
+  .lang-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .section h2 {
+    color: var(--accent);
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .section p, .section li { color: var(--muted); font-size: 14.5px; }
+  .section ul { padding-left: 20px; margin-top: 8px; }
+  body[dir="rtl"] .section ul { padding-left: 0; padding-right: 20px; }
+  .section li { margin-bottom: 6px; }
+  .section strong { color: var(--text); }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13.5px; }
+  table th, table td { text-align: left; padding: 10px 12px; border: 1px solid var(--border); color: var(--muted); vertical-align: top; }
+  body[dir="rtl"] table th, body[dir="rtl"] table td { text-align: right; }
+  table th { color: var(--text); background: rgba(139,92,246,0.12); }
+  table td:first-child { color: var(--text); font-weight: 600; white-space: nowrap; }
+  .lang-content { display: none; }
+  .lang-content.active { display: block; }
+  .footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 24px;
+    border-top: 1px solid var(--border);
+  }
+  @media (max-width: 600px) {
+    .header h1 { font-size: 22px; }
+    .section { padding: 18px; }
+    table td:first-child { white-space: normal; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>CY Player</h1>
+  <p id="header-sub">Privacy Policy &amp; Terms of Use</p>
+</div>
+
+<div class="container">
+  <!-- Language selector -->
+  <div class="lang-bar" id="lang-bar">
+    <button class="lang-btn active" data-lang="en">English</button>
+    <button class="lang-btn" data-lang="bn">বাংলা</button>
+    <button class="lang-btn" data-lang="ja">日本語</button>
+    <button class="lang-btn" data-lang="zh">简体中文</button>
+    <button class="lang-btn" data-lang="ko">한국어</button>
+    <button class="lang-btn" data-lang="ar">العربية</button>
+  </div>
+
+  <!-- ============ ENGLISH ============ -->
+  <div class="lang-content active" id="lang-en" lang="en">
+    <div class="section">
+      <h2>Effective Date: August 20, 2026</h2>
+      <p>This Privacy Policy explains how CY Player ("we", "our", "the app") collects, uses, and protects your information when you use our media player application. By installing or using the app, you agree to the practices described in this policy.</p>
+    </div>
+    <div class="section">
+      <h2>1. Developer Information</h2>
+      <p>CY Player is developed and maintained by:</p>
+      <ul>
+        <li><strong>Developer: Md Ismail</strong></li>
+        <li><strong>Organization: Cybrotechnology</strong></li>
+        <li><strong>Contact Email: cybrotechnology1@gmail.com</strong></li>
+        <li><strong>Website:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. Permissions We Request</h2>
+      <p>The table below lists every permission CY Player may request, along with the reason we need it. Permissions are only used for the specific features described. You can deny or revoke permissions anytime from your device settings.</p>
+      <table>
+        <tr><th>Permission</th><th>Why We Need It</th></tr>
+        <tr><td>Storage (Read)</td><td>To read and play videos, music and images stored on your device (Android 6–12: READ_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>Storage (Write)</td><td>To delete media files you choose to remove within the app (Android 6–10: WRITE_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>Photos &amp; Videos</td><td>To access your video library (Android 13+: READ_MEDIA_VIDEO, READ_MEDIA_IMAGES)</td></tr>
+        <tr><td>Music &amp; Audio</td><td>To access your music library and play audio (Android 13+: READ_MEDIA_AUDIO)</td></tr>
+        <tr><td>Notifications</td><td>To show playback controls, background playback notification and new-media alerts</td></tr>
+        <tr><td>Internet</td><td>To use online features you explicitly choose: YouTube search/playback, online subtitles, audiobooks, the in-app browser and casting</td></tr>
+        <tr><td>Foreground Service</td><td>To keep playing audio/video in the background with a notification</td></tr>
+        <tr><td>Biometric (Fingerprint / Face ID)</td><td>Optional — to unlock the Privacy Vault. Processed entirely on your device</td></tr>
+        <tr><td>Wake Lock</td><td>To keep the screen awake during video playback</td></tr>
+        <tr><td>Display over other apps</td><td>Picture-in-Picture fallback on certain phone brands (e.g. Transsion/itel) that block the standard PiP API</td></tr>
+        <tr><td>Vibration</td><td>For haptic feedback when you tap controls</td></tr>
+        <tr><td>Wi-Fi State</td><td>To discover and connect to DLNA/UPnP cast devices on your local network</td></tr>
+        <tr><td>Wi-Fi Multicast</td><td>To discover cast devices using SSDP/UPnP on your local network</td></tr>
+      </table>
+    </div>
+    <div class="section">
+      <h2>3. Information We Collect &amp; How We Use It</h2>
+      <p>CY Player accesses media files (videos, images, audio) stored on your device solely to display and play them within the app. We do <strong>NOT</strong> upload, transmit, or share your personal media files with third parties.</p>
+      <ul>
+        <li><strong>Media metadata</strong> (file names, titles, durations, sizes, folder names, artist/album) — scanned from your device to build your library. Stored locally on your device only.</li>
+        <li><strong>Playback history, favorites and resume positions</strong> — stored locally on your device so your library remembers where you stopped.</li>
+        <li><strong>Watch history of online videos</strong> (video title, ID, watch time) — stored locally on your device only.</li>
+        <li><strong>Browser history (up to 100 URLs) and bookmarks</strong> from the in-app browser — stored locally on your device only.</li>
+        <li><strong>Privacy Vault PIN and recovery code</strong> — stored locally as salted SHA-256 hashes, never in plaintext and never transmitted.</li>
+        <li><strong>User-provided API keys</strong> (e.g. OpenSubtitles API key) — stored locally on your device.</li>
+        <li><strong>Usage analytics</strong> — app open, screen views, playback events (play/pause/next/previous) and the title/duration of videos you open are sent to <strong>Firebase Analytics (Google)</strong> to improve the app.</li>
+        <li><strong>Crash reports</strong> — technical crash data (device model, OS version, stack traces) is sent to <strong>Firebase Crashlytics (Google)</strong> to fix bugs.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>4. Third-Party Services</h2>
+      <p>CY Player uses the following third-party services. These services may collect usage data as described in their respective privacy policies. We do not control their data practices.</p>
+      <ul>
+        <li><strong>Firebase Analytics &amp; Crashlytics (Google)</strong> — usage analytics and crash reporting as described above.</li>
+        <li><strong>YouTube API Services</strong> — for searching and playing online videos. Your search terms are sent to Google. Subject to Google's Terms of Service and Privacy Policy.</li>
+        <li><strong>OpenSubtitles API</strong> — for fetching subtitle files (optional feature). Your video file name and API key are sent to OpenSubtitles to search for matching subtitles.</li>
+        <li><strong>LibriVox API</strong> — for searching and streaming public-domain audiobooks.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. Data Storage &amp; Security</h2>
+      <ul>
+        <li>All app data is stored locally on your device.</li>
+        <li>The Privacy Vault uses SHA-256 hashing for PIN verification.</li>
+        <li>Biometric authentication uses your device's native KeyStore system.</li>
+        <li>We do not maintain cloud backups of your data.</li>
+        <li>Files moved to the Privacy Vault remain on your device, protected by your PIN.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>6. Children's Privacy</h2>
+      <p>CY Player is not directed at children under 13. We do not knowingly collect information from children. If you believe a child has provided us information, please contact us and we will delete it.</p>
+    </div>
+    <div class="section">
+      <h2>7. Changes to This Policy</h2>
+      <p>We may update this privacy policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy. We will notify you of significant changes within the app.</p>
+    </div>
+    <div class="section">
+      <h2>8. Contact</h2>
+      <p>For questions about this privacy policy or your data, contact us at:</p>
+      <p><strong>Developer: Md Ismail</strong></p>
+      <p><strong>Organization: Cybrotechnology</strong></p>
+      <p><strong>Email: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>Website:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></p>
+    </div>
+  </div>
+
+  <!-- ============ BENGALI (বাংলা) ============ -->
+  <div class="lang-content" id="lang-bn" lang="bn">
+    <div class="section">
+      <h2>কার্যকর তারিখ: ২০ আগস্ট, ২০২৬</h2>
+      <p>এই প্রাইভেসি পলিসিটি ব্যাখ্যা করে যে সিওয়াই প্লেয়ার ("আমরা", "আমাদের", "অ্যাপ") আপনার মিডিয়া প্লেয়ার অ্যাপ্লিকেশন ব্যবহার করার সময় আপনার তথ্য কীভাবে সংগ্রহ, ব্যবহার এবং সুরক্ষা করে। অ্যাপটি ইনস্টল বা ব্যবহার করার মাধ্যমে আপনি এই নীতিতে বর্ণিত অনুশীলনগুলোতে সম্মত হচ্ছেন।</p>
+    </div>
+    <div class="section">
+      <h2>১. ডেভেলপারের তথ্য</h2>
+      <p>সিওয়াই প্লেয়ার নিম্নলিখিত ব্যক্তি ও প্রতিষ্ঠান দ্বারা তৈরি ও রক্ষণাবেক্ষণ করা হয়:</p>
+      <ul>
+        <li><strong>ডেভেলপার: মোঃ ইসমাইল (Md Ismail)</strong></li>
+        <li><strong>প্রতিষ্ঠান: Cybrotechnology</strong></li>
+        <li><strong>যোগাযোগ ইমেইল: cybrotechnology1@gmail.com</strong></li>
+        <li><strong>ওয়েবসাইট:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>২. আমরা যে পারমিশনগুলো নিই</h2>
+      <p>নিচের টেবিলে সিওয়াই প্লেয়ার যে প্রতিটি পারমিশন চাইতে পারে এবং সেগুলোর প্রয়োজনীয় কারণ তালিকাভুক্ত করা হয়েছে। পারমিশনগুলো শুধুমাত্র বর্ণিত নির্দিষ্ট ফিচারের জন্যই ব্যবহৃত হয়। আপনি যেকোনো সময় ডিভাইস সেটিংস থেকে পারমিশন অস্বীকার বা প্রত্যাহার করতে পারেন।</p>
+      <table>
+        <tr><th>পারমিশন</th><th>কেন দরকার</th></tr>
+        <tr><td>স্টোরেজ (পড়া)</td><td>আপনার ডিভাইসে সংরক্ষিত ভিডিও, গান ও ছবি পড়তে ও চালাতে (Android 6–12: READ_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>স্টোরেজ (লেখা)</td><td>অ্যাপের ভিতরে আপনি যে মিডিয়া ফাইল মুছতে চান সেগুলো ডিলিট করতে (Android 6–10: WRITE_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>ছবি ও ভিডিও</td><td>আপনার ভিডিও লাইব্রেরি অ্যাক্সেস করতে (Android 13+: READ_MEDIA_VIDEO, READ_MEDIA_IMAGES)</td></tr>
+        <tr><td>গান ও অডিও</td><td>আপনার মিউজিক লাইব্রেরি অ্যাক্সেস করে অডিও চালাতে (Android 13+: READ_MEDIA_AUDIO)</td></tr>
+        <tr><td>নোটিফিকেশন</td><td>প্লেব্যাক কন্ট্রোল, ব্যাকগ্রাউন্ড প্লেব্যাক নোটিফিকেশন ও নতুন মিডিয়া সতর্কতা দেখাতে</td></tr>
+        <tr><td>ইন্টারনেট</td><td>আপনি স্পষ্টভাবে বেছে নেওয়া অনলাইন ফিচার ব্যবহার করতে: ইউটিউব সার্চ/প্লেব্যাক, অনলাইন সাবটাইটেল, অডিওবুক, অ্যাপের ভেতরের ব্রাউজার ও কাস্টিং</td></tr>
+        <tr><td>ফোরগ্রাউন্ড সার্ভিস</td><td>নোটিফিকেশনসহ ব্যাকগ্রাউন্ডে অডিও/ভিডিও চালিয়ে রাখতে</td></tr>
+        <tr><td>বায়োমেট্রিক (ফিঙ্গারপ্রিন্ট / ফেস আইডি)</td><td>ঐচ্ছিক — প্রাইভেসি ভল্ট আনলক করতে। সম্পূর্ণ আপনার ডিভাইসেই প্রসেস হয়</td></tr>
+        <tr><td>ওয়েক লক</td><td>ভিডিও প্লেব্যাক চলাকালীন স্ক্রিন জাগ্রত রাখতে</td></tr>
+        <tr><td>অন্যান্য অ্যাপের উপর ডিসপ্লে</td><td>কিছু ফোন ব্র্যান্ডে (যেমন Transsion/itel) স্ট্যান্ডার্ড PiP API ব্লক থাকায় পিকচার-ইন-পিকচার ফলব্যাকের জন্য</td></tr>
+        <tr><td>ভাইব্রেশন</td><td>কন্ট্রোলে ট্যাপ করার সময় হ্যাপটিক ফিডব্যাকের জন্য</td></tr>
+        <tr><td>Wi-Fi স্টেট</td><td>আপনার লোকাল নেটওয়ার্কে DLNA/UPnP কাস্ট ডিভাইস খুঁজে সংযোগ করতে</td></tr>
+        <tr><td>Wi-Fi মাল্টিকাস্ট</td><td>SSDP/UPnP ব্যবহার করে লোকাল নেটওয়ার্কে কাস্ট ডিভাইস খুঁজতে</td></tr>
+      </table>
+    </div>
+    <div class="section">
+      <h2>৩. আমরা কী তথ্য সংগ্রহ করি ও কীভাবে ব্যবহার করি</h2>
+      <p>সিওয়াই প্লেয়ার আপনার ডিভাইসে সংরক্ষিত মিডিয়া ফাইল (ভিডিও, ছবি, অডিও) শুধুমাত্র অ্যাপের ভিতরে প্রদর্শন ও চালানোর জন্য অ্যাক্সেস করে। আমরা আপনার ব্যক্তিগত মিডিয়া ফাইল <strong>কখনই</strong> আপলোড, প্রেরণ বা তৃতীয় পক্ষের সাথে শেয়ার করি না।</p>
+      <ul>
+        <li><strong>মিডিয়া মেটাডেটা</strong> (ফাইলের নাম, টাইটেল, ডিউরেশন, সাইজ, ফোল্ডারের নাম, আর্টিস্ট/অ্যালবাম) — আপনার লাইব্রেরি তৈরির জন্য ডিভাইস থেকে স্ক্যান করা হয়। শুধুমাত্র আপনার ডিভাইসেই স্থানীয়ভাবে সংরক্ষিত থাকে।</li>
+        <li><strong>প্লেব্যাক ইতিহাস, ফেভারিট ও রিজিউম পজিশন</strong> — ডিভাইসেই স্থানীয়ভাবে সংরক্ষিত থাকে, যাতে লাইব্রেরি মনে রাখে আপনি কোথায় থামিয়েছিলেন।</li>
+        <li><strong>অনলাইন ভিডিওর ওয়াচ হিস্ট্রি</strong> (ভিডিও টাইটেল, ID, দেখা টাইম) — শুধুমাত্র ডিভাইসেই স্থানীয়ভাবে সংরক্ষিত।</li>
+        <li><strong>ব্রাউজার হিস্ট্রি (সর্বোচ্চ ১০০টি URL) ও বুকমার্ক</strong> অ্যাপের ভেতরের ব্রাউজার থেকে — শুধুমাত্র ডিভাইসেই স্থানীয়ভাবে সংরক্ষিত।</li>
+        <li><strong>প্রাইভেসি ভল্টের PIN ও রিকভারি কোড</strong> — সল্টেড SHA-256 হ্যাশ হিসেবে ডিভাইসেই সংরক্ষিত, কখনও প্লেইনটেক্সটে নয় এবং কখনও প্রেরণ করা হয় না।</li>
+        <li><strong>ব্যবহারকারীর দেওয়া API কী</strong> (যেমন OpenSubtitles API key) — ডিভাইসেই স্থানীয়ভাবে সংরক্ষিত।</li>
+        <li><strong>ব্যবহার সংক্রান্ত অ্যানালিটিক্স</strong> — অ্যাপ ওপেন, স্ক্রিন ভিউ, প্লেব্যাক ইভেন্ট (play/pause/next/previous) এবং আপনি যে ভিডিও খোলেন তার টাইটেল ও ডিউরেশন <strong>Firebase Analytics (Google)</strong>-এ পাঠানো হয় অ্যাপ উন্নত করতে।</li>
+        <li><strong>ক্র্যাশ রিপোর্ট</strong> — প্রযুক্তিগত ক্র্যাশ ডেটা (ডিভাইস মডেল, OS ভার্সন, স্ট্যাক ট্রেস) বাগ ঠিক করতে <strong>Firebase Crashlytics (Google)</strong>-এ পাঠানো হয়।</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>৪. তৃতীয় পক্ষের সার্ভিস</h2>
+      <p>সিওয়াই প্লেয়ার নিম্নলিখিত তৃতীয় পক্ষের সার্ভিসগুলো ব্যবহার করে। এই সার্ভিসগুলো তাদের নিজ নিজ প্রাইভেসি পলিসিতে বর্ণিত ব্যবহারের ডেটা সংগ্রহ করতে পারে। আমরা তাদের ডেটা অনুশীলন নিয়ন্ত্রণ করি না।</p>
+      <ul>
+        <li><strong>Firebase Analytics ও Crashlytics (Google)</strong> — উপরে বর্ণিত ব্যবহার অ্যানালিটিক্স ও ক্র্যাশ রিপোর্টিং।</li>
+        <li><strong>ইউটিউব API সার্ভিস</strong> — অনলাইন ভিডিও সার্চ ও প্লে করার জন্য। আপনার সার্চ টার্ম গুগলে পাঠানো হয়। গুগলের টার্মস অব সার্ভিস এবং প্রাইভেসি পলিসির সাপেক্ষে।</li>
+        <li><strong>OpenSubtitles API</strong> — সাবটাইটেল ফাইল আনার জন্য (ঐচ্ছিক ফিচার)। মিলে যাওয়া সাবটাইটেল খুঁজতে আপনার ভিডিও ফাইলের নাম ও API key OpenSubtitles-এ পাঠানো হয়।</li>
+        <li><strong>LibriVox API</strong> — পাবলিক ডোমেইনের অডিওবুক সার্চ ও স্ট্রিমিংয়ের জন্য।</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>৫. ডেটা স্টোরেজ ও নিরাপত্তা</h2>
+      <ul>
+        <li>সব অ্যাপ ডেটা আপনার ডিভাইসে স্থানীয়ভাবে সংরক্ষিত থাকে।</li>
+        <li>প্রাইভেসি ভল্ট পিন যাচাইয়ের জন্য SHA-256 হ্যাশিং ব্যবহার করে।</li>
+        <li>বায়োমেট্রিক অথেনটিকেশন আপনার ডিভাইসের নেটিভ KeyStore সিস্টেম ব্যবহার করে।</li>
+        <li>আমরা আপনার ডেটার ক্লাউড ব্যাকআপ রাখি না।</li>
+        <li>প্রাইভেসি ভল্টে সরানো ফাইলগুলো আপনার ডিভাইসেই থাকে, আপনার পিন দ্বারা সুরক্ষিত।</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>৬. শিশুদের গোপনীয়তা</h2>
+      <p>সিওয়াই প্লেয়ার ১৩ বছরের কম বয়সী শিশুদের জন্য নির্দেশিত নয়। আমরা সচেতনভাবে শিশুদের থেকে তথ্য সংগ্রহ করি না। যদি আপনি বিশ্বাস করেন যে একটি শিশু আমাদের তথ্য দিয়েছে, অনুগ্রহ করে আমাদের সাথে যোগাযোগ করুন এবং আমরা তা মুছে ফেলব।</p>
+    </div>
+    <div class="section">
+      <h2>৭. এই নীতির পরিবর্তন</h2>
+      <p>আমরা সময়ে সময়ে এই প্রাইভেসি পলিসি আপডেট করতে পারি। পরিবর্তনের পর অ্যাপের ক্রমাগত ব্যবহার আপডেটেড নীতির গ্রহণযোগ্যতা গঠন করে। আমরা অ্যাপের ভিতরে উল্লেখযোগ্য পরিবর্তন সম্পর্কে আপনাকে জানাব।</p>
+    </div>
+    <div class="section">
+      <h2>৮. যোগাযোগ</h2>
+      <p>এই প্রাইভেসি পলিসি বা আপনার ডেটা সম্পর্কে প্রশ্ন থাকলে আমাদের সাথে যোগাযোগ করুন:</p>
+      <p><strong>ডেভেলপার: মোঃ ইসমাইল (Md Ismail)</strong></p>
+      <p><strong>প্রতিষ্ঠান: Cybrotechnology</strong></p>
+      <p><strong>ইমেইল: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>ওয়েবসাইট:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></p>
+    </div>
+  </div>
+
+  <!-- ============ JAPANESE (日本語) ============ -->
+  <div class="lang-content" id="lang-ja" lang="ja">
+    <div class="section">
+      <h2>発効日: 2026年8月20日</h2>
+      <p>このプライバシーポリシーは、CY Player（「当社」、「本アプリ」）がメディアプレーヤーアプリケーションをご利用の際に、お客様の情報をどのように収集・利用・保護するかを説明するものです。アプリをインストールまたは使用することにより、本ポリシーに記載された内容に同意したものとみなされます。</p>
+    </div>
+    <div class="section">
+      <h2>1. 開発者情報</h2>
+      <p>CY Playerは以下によって開発・維持されています:</p>
+      <ul>
+        <li><strong>開発者: Md Ismail</strong></li>
+        <li><strong>組織: Cybrotechnology</strong></li>
+        <li><strong>連絡先メール: cybrotechnology1@gmail.com</strong></li>
+        <li><strong>ウェブサイト:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. 要求する権限</h2>
+      <p>以下の表は、CY Playerが要求する可能性のあるすべての権限とその理由を示しています。権限は記載された特定の機能にのみ使用されます。権限はいつでもデバイス設定から拒否または取り消しできます。</p>
+      <table>
+        <tr><th>権限</th><th>必要な理由</th></tr>
+        <tr><td>ストレージ（読み取り）</td><td>デバイス上の動画・音楽・画像を読み取り・再生するため（Android 6–12: READ_EXTERNAL_STORAGE）</td></tr>
+        <tr><td>ストレージ（書き込み）</td><td>アプリ内で削除を選択したメディアファイルを削除するため（Android 6–10: WRITE_EXTERNAL_STORAGE）</td></tr>
+        <tr><td>写真と動画</td><td>動画ライブラリへのアクセス用（Android 13+: READ_MEDIA_VIDEO、READ_MEDIA_IMAGES）</td></tr>
+        <tr><td>音楽とオーディオ</td><td>音楽ライブラリへのアクセスと音声再生のため（Android 13+: READ_MEDIA_AUDIO）</td></tr>
+        <tr><td>通知</td><td>再生コントロール、バックグラウンド再生の通知、新着メディアのお知らせを表示するため</td></tr>
+        <tr><td>インターネット</td><td>明示的に選択したオンライン機能（YouTube検索/再生、オンライン字幕、オーディオブック、アプリ内ブラウザ、キャスト）を使用するため</td></tr>
+        <tr><td>フォアグラウンドサービス</td><td>通知付きでバックグラウンド再生を継続するため</td></tr>
+        <tr><td>生体認証（指紋 / Face ID）</td><td>任意 — プライバシーボールトのロック解除用。すべてデバイス内で処理されます</td></tr>
+        <tr><td>ウェイクロック</td><td>動画再生中に画面をオフにしないため</td></tr>
+        <tr><td>他アプリへの重ね合わせ表示</td><td>標準のPiP APIをブロックする一部の端末ブランド（Transsion/itel等）向けのピクチャーインピクチャー代替機能</td></tr>
+        <tr><td>バイブレーション</td><td>コントロール操作時の触覚フィードバック用</td></tr>
+        <tr><td>Wi-Fi状態</td><td>ローカルネットワーク上のDLNA/UPnPキャストデバイスの検出と接続のため</td></tr>
+        <tr><td>Wi-Fiマルチキャスト</td><td>SSDP/UPnPによるキャストデバイス検出のため</td></tr>
+      </table>
+    </div>
+    <div class="section">
+      <h2>3. 収集する情報と利用方法</h2>
+      <p>CY Playerは、お客様のデバイスに保存されているメディアファイル（動画、画像、音声）を、アプリ内での表示・再生の目的のみでアクセスします。お客様の個人メディアファイルを第三者にアップロード、送信、共有することは<strong>一切</strong>ありません。</p>
+      <ul>
+        <li><strong>メディアメタデータ</strong>（ファイル名、タイトル、再生時間、サイズ、フォルダ名、アーティスト/アルバム）— ライブラリ構築のためデバイスからスキャンされます。デバイス上にのみローカル保存されます。</li>
+        <li><strong>再生履歴、お気に入り、再開位置</strong> — どこまで見たかを覚えておくため、デバイス上にのみローカル保存されます。</li>
+        <li><strong>オンライン動画の視聴履歴</strong>（動画タイトル、ID、視聴時間）— デバイス上にのみローカル保存されます。</li>
+        <li><strong>ブラウザ履歴（最大100件のURL）とブックマーク</strong>（アプリ内ブラウザ）— デバイス上にのみローカル保存されます。</li>
+        <li><strong>プライバシーボールトのPINとリカバリーコード</strong> — ソルト付きSHA-256ハッシュとしてデバイス上にのみ保存され、平文保存や送信は一切行われません。</li>
+        <li><strong>ユーザーが入力したAPIキー</strong>（OpenSubtitles APIキー等）— デバイス上にローカル保存されます。</li>
+        <li><strong>利用分析</strong> — アプリ起動、画面表示、再生イベント（再生/一時停止/次へ/前へ）、開いた動画のタイトルと再生時間がアプリ改善のため<strong>Firebase Analytics（Google）</strong>に送信されます。</li>
+        <li><strong>クラッシュレポート</strong> — 技術的なクラッシュデータ（端末モデル、OSバージョン、スタックトレース）がバグ修正のため<strong>Firebase Crashlytics（Google）</strong>に送信されます。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>4. サードパーティサービス</h2>
+      <p>CY Playerは以下のサードパーティサービスを使用します。これらのサービスは、各社のプライバシーポリシーに記載されている通り、利用データを収集する場合があります。当社はそれらのデータ慣行を管理することはできません。</p>
+      <ul>
+        <li><strong>Firebase Analytics / Crashlytics（Google）</strong> — 上記の利用分析とクラッシュレポート。</li>
+        <li><strong>YouTube APIサービス</strong> — オンライン動画の検索・再生用。検索語はGoogleに送信されます。Googleの利用規約とプライバシーポリシーが適用されます。</li>
+        <li><strong>OpenSubtitles API</strong> — 字幕ファイル取得用（任意機能）。一致する字幕を検索するため、動画ファイル名とAPIキーがOpenSubtitlesに送信されます。</li>
+        <li><strong>LibriVox API</strong> — パブリックドメインのオーディオブック検索・ストリーミング用。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. データの保存とセキュリティ</h2>
+      <ul>
+        <li>すべてのアプリデータはお客様のデバイスにローカル保存されます。</li>
+        <li>プライバシーボールトはPIN検証にSHA-256ハッシュを使用します。</li>
+        <li>生体認証はお客様のデバイスの標準KeyStoreシステムを使用します。</li>
+        <li>データのクラウドバックアップは行いません。</li>
+        <li>プライバシーボールトに移動したファイルは、PINで保護された状態でデバイス上に残ります。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>6. 子どものプライバシー</h2>
+      <p>CY Playerは13歳未満の子どもを対象としていません。当社は子どもから意図的に情報を収集することはありません。子どもが情報を提供したと思われる場合は、ご連絡ください。直ちに削除いたします。</p>
+    </div>
+    <div class="section">
+      <h2>7. 本ポリシーの変更</h2>
+      <p>本プライバシーポリシーは随時更新されることがあります。変更後もアプリを継続してご利用いただくことで、更新されたポリシーに同意したものとみなされます。重要な変更についてはアプリ内でお知らせします。</p>
+    </div>
+    <div class="section">
+      <h2>8. お問い合わせ</h2>
+      <p>本プライバシーポリシーまたはデータに関するご質問は、以下までご連絡ください:</p>
+      <p><strong>開発者: Md Ismail</strong></p>
+      <p><strong>組織: Cybrotechnology</strong></p>
+      <p><strong>メール: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>ウェブサイト:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></p>
+    </div>
+  </div>
+
+  <!-- ============ CHINESE (简体中文) ============ -->
+  <div class="lang-content" id="lang-zh" lang="zh">
+    <div class="section">
+      <h2>生效日期：2026年8月20日</h2>
+      <p>本隐私政策说明 CY Player（"我们"、"本应用"）在您使用我们的媒体播放器应用程序时，如何收集、使用和保护您的信息。安装或使用本应用即表示您同意本政策所述的做法。</p>
+    </div>
+    <div class="section">
+      <h2>1. 开发者信息</h2>
+      <p>CY Player 由以下人员和组织开发和维护：</p>
+      <ul>
+        <li><strong>开发者：Md Ismail</strong></li>
+        <li><strong>组织：Cybrotechnology</strong></li>
+        <li><strong>联系邮箱：cybrotechnology1@gmail.com</strong></li>
+        <li><strong>网站：</strong><a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. 我们请求的权限</h2>
+      <p>下表列出了 CY Player 可能请求的每一项权限及其原因。权限仅用于所述的具体功能。您可以随时在设备设置中拒绝或撤销权限。</p>
+      <table>
+        <tr><th>权限</th><th>我们需要它的原因</th></tr>
+        <tr><td>存储（读取）</td><td>读取和播放设备上存储的视频、音乐和图片（Android 6–12：READ_EXTERNAL_STORAGE）</td></tr>
+        <tr><td>存储（写入）</td><td>删除您在应用内选择的媒体文件（Android 6–10：WRITE_EXTERNAL_STORAGE）</td></tr>
+        <tr><td>照片和视频</td><td>访问您的视频库（Android 13+：READ_MEDIA_VIDEO、READ_MEDIA_IMAGES）</td></tr>
+        <tr><td>音乐和音频</td><td>访问您的音乐库并播放音频（Android 13+：READ_MEDIA_AUDIO）</td></tr>
+        <tr><td>通知</td><td>显示播放控制、后台播放通知和新媒体提醒</td></tr>
+        <tr><td>互联网</td><td>使用您明确选择的在线功能：YouTube 搜索/播放、在线字幕、有声书、应用内浏览器和投屏</td></tr>
+        <tr><td>前台服务</td><td>在后台继续播放音频/视频并显示通知</td></tr>
+        <tr><td>生物识别（指纹 / Face ID）</td><td>可选 — 用于解锁隐私保险库。完全在设备上处理</td></tr>
+        <tr><td>唤醒锁</td><td>在视频播放期间保持屏幕常亮</td></tr>
+        <tr><td>在其他应用上显示</td><td>针对部分屏蔽标准 PiP API 的手机品牌（如 Transsion/itel）的画中画替代方案</td></tr>
+        <tr><td>振动</td><td>点击控制按钮时的触觉反馈</td></tr>
+        <tr><td>Wi-Fi 状态</td><td>发现并连接本地网络上的 DLNA/UPnP 投屏设备</td></tr>
+        <tr><td>Wi-Fi 组播</td><td>使用 SSDP/UPnP 在本地网络上发现投屏设备</td></tr>
+      </table>
+    </div>
+    <div class="section">
+      <h2>3. 我们收集的信息及使用方式</h2>
+      <p>CY Player 访问您设备上存储的媒体文件（视频、图片、音频），仅用于在应用内显示和播放。我们<strong>不会</strong>上传、传输或与第三方共享您的个人媒体文件。</p>
+      <ul>
+        <li><strong>媒体元数据</strong>（文件名、标题、时长、大小、文件夹名、艺术家/专辑）— 从设备扫描以构建您的媒体库。仅存储在设备本地。</li>
+        <li><strong>播放历史、收藏和续播位置</strong> — 仅存储在设备本地，以便媒体库记住您看到哪里。</li>
+        <li><strong>在线视频观看历史</strong>（视频标题、ID、观看时间）— 仅存储在设备本地。</li>
+        <li><strong>浏览器历史（最多 100 个 URL）和书签</strong>（应用内浏览器）— 仅存储在设备本地。</li>
+        <li><strong>隐私保险库 PIN 和恢复代码</strong> — 以加盐 SHA-256 哈希形式存储在设备本地，绝不明文存储或传输。</li>
+        <li><strong>用户提供的 API 密钥</strong>（如 OpenSubtitles API 密钥）— 存储在设备本地。</li>
+        <li><strong>使用分析</strong> — 应用启动、屏幕浏览、播放事件（播放/暂停/下一个/上一个）以及您打开的视频的标题和时长会发送到 <strong>Firebase Analytics（Google）</strong> 以改进应用。</li>
+        <li><strong>崩溃报告</strong> — 技术性崩溃数据（设备型号、操作系统版本、堆栈跟踪）会发送到 <strong>Firebase Crashlytics（Google）</strong> 以修复错误。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>4. 第三方服务</h2>
+      <p>CY Player 使用以下第三方服务。这些服务可能按照各自隐私政策中的描述收集使用数据。我们无法控制它们的数据处理方式。</p>
+      <ul>
+        <li><strong>Firebase Analytics 和 Crashlytics（Google）</strong> — 上述使用分析和崩溃报告。</li>
+        <li><strong>YouTube API 服务</strong> — 用于搜索和播放在线视频。您的搜索词会发送给 Google。受 Google 服务条款和隐私政策约束。</li>
+        <li><strong>OpenSubtitles API</strong> — 用于获取字幕文件（可选功能）。您的视频文件名和 API 密钥会发送给 OpenSubtitles 以搜索匹配的字幕。</li>
+        <li><strong>LibriVox API</strong> — 用于搜索和播放公有领域有声书。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. 数据存储与安全</h2>
+      <ul>
+        <li>所有应用数据都存储在您的设备本地。</li>
+        <li>隐私保险库使用 SHA-256 哈希进行 PIN 验证。</li>
+        <li>生物识别认证使用您设备的原生 KeyStore 系统。</li>
+        <li>我们不对您的数据进行云备份。</li>
+        <li>移动到隐私保险库的文件仍保留在您的设备上，由您的 PIN 保护。</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>6. 儿童隐私</h2>
+      <p>CY Player 不面向 13 岁以下儿童。我们不会故意收集儿童的信息。如果您认为儿童向我们提供了信息，请联系我们，我们将予以删除。</p>
+    </div>
+    <div class="section">
+      <h2>7. 本政策的变更</h2>
+      <p>我们可能不时更新本隐私政策。变更后继续使用应用即表示接受更新后的政策。我们将在应用内通知您重大变更。</p>
+    </div>
+    <div class="section">
+      <h2>8. 联系我们</h2>
+      <p>如有关于本隐私政策或您的数据的问题，请联系我们：</p>
+      <p><strong>开发者：Md Ismail</strong></p>
+      <p><strong>组织：Cybrotechnology</strong></p>
+      <p><strong>电子邮件：cybrotechnology1@gmail.com</strong></p>
+      <p><strong>网站：</strong><a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></p>
+    </div>
+  </div>
+
+  <!-- ============ KOREAN (한국어) ============ -->
+  <div class="lang-content" id="lang-ko" lang="ko">
+    <div class="section">
+      <h2>시행일: 2026년 8월 20일</h2>
+      <p>이 개인정보 처리방침은 CY Player("당사", "앱")가 미디어 플레이어 애플리케이션을 이용하는 동안 귀하의 정보를 수집, 사용 및 보호하는 방법을 설명합니다. 앱을 설치하거나 사용함으로써 본 방침에 설명된 내용에 동의하게 됩니다.</p>
+    </div>
+    <div class="section">
+      <h2>1. 개발자 정보</h2>
+      <p>CY Player는 다음에 의해 개발 및 유지관리됩니다:</p>
+      <ul>
+        <li><strong>개발자: Md Ismail</strong></li>
+        <li><strong>기관: Cybrotechnology</strong></li>
+        <li><strong>연락처 이메일: cybrotechnology1@gmail.com</strong></li>
+        <li><strong>웹사이트:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. 요청하는 권한</h2>
+      <p>아래 표는 CY Player가 요청할 수 있는 모든 권한과 그 이유를 보여줍니다. 권한은 설명된 특정 기능에만 사용됩니다. 언제든지 기기 설정에서 권한을 거부하거나 철회할 수 있습니다.</p>
+      <table>
+        <tr><th>권한</th><th>필요한 이유</th></tr>
+        <tr><td>저장소(읽기)</td><td>기기에 저장된 동영상, 음악, 이미지를 읽고 재생하기 위해 (Android 6–12: READ_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>저장소(쓰기)</td><td>앱 내에서 삭제를 선택한 미디어 파일을 삭제하기 위해 (Android 6–10: WRITE_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>사진 및 동영상</td><td>동영상 라이브러리에 접근하기 위해 (Android 13+: READ_MEDIA_VIDEO, READ_MEDIA_IMAGES)</td></tr>
+        <tr><td>음악 및 오디오</td><td>음악 라이브러리에 접근하고 오디오를 재생하기 위해 (Android 13+: READ_MEDIA_AUDIO)</td></tr>
+        <tr><td>알림</td><td>재생 제어, 백그라운드 재생 알림 및 새 미디어 알림을 표시하기 위해</td></tr>
+        <tr><td>인터넷</td><td>명시적으로 선택한 온라인 기능(YouTube 검색/재생, 온라인 자막, 오디오북, 인앱 브라우저, 캐스팅)을 사용하기 위해</td></tr>
+        <tr><td>포그라운드 서비스</td><td>알림과 함께 백그라운드에서 오디오/비디오 재생을 계속하기 위해</td></tr>
+        <tr><td>생체인식(지문 / Face ID)</td><td>선택 사항 — 개인정보 보관함 잠금 해제용. 전적으로 기기 내에서 처리됩니다</td></tr>
+        <tr><td>웨이크락</td><td>동영상 재생 중 화면이 꺼지지 않도록 하기 위해</td></tr>
+        <tr><td>다른 앱 위에 표시</td><td>표준 PiP API를 차단하는 일부 폰 브랜드(Transsion/itel 등)를 위한 화면 속 화면 대체 기능</td></tr>
+        <tr><td>진동</td><td>컨트롤 탭 시 햅틱 피드백을 위해</td></tr>
+        <tr><td>Wi-Fi 상태</td><td>로컬 네트워크의 DLNA/UPnP 캐스트 기기 발견 및 연결을 위해</td></tr>
+        <tr><td>Wi-Fi 멀티캐스트</td><td>SSDP/UPnP를 사용한 로컬 네트워크 캐스트 기기 발견을 위해</td></tr>
+      </table>
+    </div>
+    <div class="section">
+      <h2>3. 수집하는 정보 및 사용 방법</h2>
+      <p>CY Player는 기기에 저장된 미디어 파일(동영상, 이미지, 오디오)을 앱 내에서 표시하고 재생하는 목적으로만 접근합니다. 당사는 귀하의 개인 미디어 파일을 제3자에게 업로드, 전송 또는 공유하지 <strong>않습니다</strong>.</p>
+      <ul>
+        <li><strong>미디어 메타데이터</strong>(파일명, 제목, 재생 시간, 크기, 폴더명, 아티스트/앨범) — 라이브러리 구축을 위해 기기에서 스캔됩니다. 기기에만 로컬 저장됩니다.</li>
+        <li><strong>재생 기록, 즐겨찾기 및 재개 위치</strong> — 어디까지 보았는지 기억하기 위해 기기에만 로컬 저장됩니다.</li>
+        <li><strong>온라인 동영상 시청 기록</strong>(동영상 제목, ID, 시청 시간) — 기기에만 로컬 저장됩니다.</li>
+        <li><strong>브라우저 기록(최대 100개 URL) 및 북마크</strong>(인앱 브라우저) — 기기에만 로컬 저장됩니다.</li>
+        <li><strong>개인정보 보관함 PIN 및 복구 코드</strong> — 솔트 처리된 SHA-256 해시로 기기에만 저장되며, 평문 저장이나 전송이 절대 이루어지지 않습니다.</li>
+        <li><strong>사용자가 제공한 API 키</strong>(OpenSubtitles API 키 등) — 기기에 로컬 저장됩니다.</li>
+        <li><strong>사용 분석</strong> — 앱 실행, 화면 보기, 재생 이벤트(재생/일시정지/다음/이전) 및 연 동영상의 제목과 재생 시간이 앱 개선을 위해 <strong>Firebase Analytics(Google)</strong>로 전송됩니다.</li>
+        <li><strong>크래시 보고서</strong> — 기술적 크래시 데이터(기기 모델, OS 버전, 스택 트레이스)가 버그 수정을 위해 <strong>Firebase Crashlytics(Google)</strong>로 전송됩니다.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>4. 제3자 서비스</h2>
+      <p>CY Player는 다음 제3자 서비스를 사용합니다. 이러한 서비스는 각각의 개인정보 처리방침에 설명된 대로 사용 데이터를 수집할 수 있습니다. 당사는 해당 데이터 관행을 통제할 수 없습니다.</p>
+      <ul>
+        <li><strong>Firebase Analytics 및 Crashlytics(Google)</strong> — 위에서 설명한 사용 분석 및 크래시 보고.</li>
+        <li><strong>YouTube API 서비스</strong> — 온라인 동영상 검색 및 재생용. 검색어가 Google로 전송됩니다. Google 서비스 약관 및 개인정보 처리방침이 적용됩니다.</li>
+        <li><strong>OpenSubtitles API</strong> — 자막 파일 가져오기용(선택 기능). 일치하는 자막을 검색하기 위해 동영상 파일명과 API 키가 OpenSubtitles로 전송됩니다.</li>
+        <li><strong>LibriVox API</strong> — 퍼블릭 도메인 오디오북 검색 및 스트리밍용.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. 데이터 저장 및 보안</h2>
+      <ul>
+        <li>모든 앱 데이터는 기기에 로컬로 저장됩니다.</li>
+        <li>개인정보 보관함은 PIN 확인에 SHA-256 해시를 사용합니다.</li>
+        <li>생체인식 인증은 기기의 기본 KeyStore 시스템을 사용합니다.</li>
+        <li>데이터의 클라우드 백업을 유지하지 않습니다.</li>
+        <li>개인정보 보관함으로 이동한 파일은 PIN으로 보호되어 기기에 남아 있습니다.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>6. 아동의 개인정보</h2>
+      <p>CY Player는 13세 미만 아동을 대상으로 하지 않습니다. 당사는 아동으로부터 의도적으로 정보를 수집하지 않습니다. 아동이 정보를 제공했다고 생각되면 연락해 주시기 바랍니다. 즉시 삭제하겠습니다.</p>
+    </div>
+    <div class="section">
+      <h2>7. 정책 변경</h2>
+      <p>당사는 수시로 이 개인정보 처리방침을 업데이트할 수 있습니다. 변경 후에도 앱을 계속 사용하면 업데이트된 정책에 동의한 것으로 간주됩니다. 중요한 변경 사항은 앱 내에서 알려드립니다.</p>
+    </div>
+    <div class="section">
+      <h2>8. 연락처</h2>
+      <p>이 개인정보 처리방침 또는 귀하의 데이터에 대한 질문이 있으면 연락해 주십시오:</p>
+      <p><strong>개발자: Md Ismail</strong></p>
+      <p><strong>기관: Cybrotechnology</strong></p>
+      <p><strong>이메일: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>웹사이트:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></p>
+    </div>
+  </div>
+
+  <!-- ============ ARABIC (العربية) ============ -->
+  <div class="lang-content" id="lang-ar" lang="ar" dir="rtl">
+    <div class="section">
+      <h2>تاريخ السريان: 20 أغسطس 2026</h2>
+      <p>توضح سياسة الخصوصية هذه كيف يقوم تطبيق CY Player ("نحن"، "التطبيق") بجمع معلوماتك واستخدامها وحمايتها عند استخدامك لتطبيق مشغل الوسائط الخاص بنا. بتثبيت التطبيق أو استخدامه، فإنك توافق على الممارسات الموضحة في هذه السياسة.</p>
+    </div>
+    <div class="section">
+      <h2>1. معلومات المطور</h2>
+      <p>تم تطوير وصيانة CY Player بواسطة:</p>
+      <ul>
+        <li><strong>المطور: Md Ismail</strong></li>
+        <li><strong>المنظمة: Cybrotechnology</strong></li>
+        <li><strong>البريد الإلكتروني للتواصل: cybrotechnology1@gmail.com</strong></li>
+        <li><strong>الموقع الإلكتروني:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>2. الأذونات التي نطلبها</h2>
+      <p>يوضح الجدول أدناه كل إذن قد يطلبه CY Player والسبب وراء حاجتنا إليه. تُستخدم الأذونات فقط للميزات المحددة الموصوفة. يمكنك رفض أو إلغاء الأذونات في أي وقت من إعدادات جهازك.</p>
+      <table>
+        <tr><th>الإذن</th><th>لماذا نحتاجه</th></tr>
+        <tr><td>التخزين (قراءة)</td><td>لقراءة وتشغيل الفيديو والموسيقى والصور المخزنة على جهازك (Android 6–12: READ_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>التخزين (كتابة)</td><td>لحذف ملفات الوسائط التي تختار إزالتها داخل التطبيق (Android 6–10: WRITE_EXTERNAL_STORAGE)</td></tr>
+        <tr><td>الصور والفيديو</td><td>للوصول إلى مكتبة الفيديو الخاصة بك (Android 13+: READ_MEDIA_VIDEO, READ_MEDIA_IMAGES)</td></tr>
+        <tr><td>الموسيقى والصوت</td><td>للوصول إلى مكتبة الموسيقى وتشغيل الصوت (Android 13+: READ_MEDIA_AUDIO)</td></tr>
+        <tr><td>الإشعارات</td><td>لعرض عناصر التحكم في التشغيل وإشعار التشغيل في الخلفية وتنبيهات الوسائط الجديدة</td></tr>
+        <tr><td>الإنترنت</td><td>لاستخدام الميزات عبر الإنترنت التي تختارها صراحةً: بحث/تشغيل يوتيوب، الترجمة عبر الإنترنت، الكتب الصوتية، المتصفح داخل التطبيق، والبث</td></tr>
+        <tr><td>خدمة المقدمة</td><td>لمواصلة تشغيل الصوت/الفيديو في الخلفية مع إشعار</td></tr>
+        <tr><td>البيانات البيومترية (بصمة / Face ID)</td><td>اختياري — لفتح الخزنة الخاصة. تتم معالجتها بالكامل على جهازك</td></tr>
+        <tr><td>قفل الاستيقاظ</td><td>لإبقاء الشاشة مضاءة أثناء تشغيل الفيديو</td></tr>
+        <tr><td>العرض فوق التطبيقات الأخرى</td><td>بديل صورة داخل صورة لبعض ماركات الهواتف (مثل Transsion/itel) التي تحظر واجهة PiP القياسية</td></tr>
+        <tr><td>الاهتزاز</td><td>للحصول على استجابة لمسية عند النقر على عناصر التحكم</td></tr>
+        <tr><td>حالة Wi-Fi</td><td>لاكتشاف والاتصال بأجهزة البث DLNA/UPnP على شبكتك المحلية</td></tr>
+        <tr><td>بث Wi-Fi متعدد</td><td>لاكتشاف أجهزة البث عبر SSDP/UPnP على شبكتك المحلية</td></tr>
+      </table>
+    </div>
+    <div class="section">
+      <h2>3. المعلومات التي نجمعها وكيف نستخدمها</h2>
+      <p>يصل CY Player إلى ملفات الوسائط (الفيديو والصور والصوت) المخزنة على جهازك فقط لعرضها وتشغيلها داخل التطبيق. نحن <strong>لا</strong> نرفع أو نرسل أو نشارك ملفات الوسائط الشخصية الخاصة بك مع أي طرف ثالث.</p>
+      <ul>
+        <li><strong>بيانات الوسائط الوصفية</strong> (أسماء الملفات، العناوين، المدة، الحجم، أسماء المجلدات، الفنان/الألبوم) — يتم مسحها من جهازك لبناء مكتبتك. تُخزن محليًا على جهازك فقط.</li>
+        <li><strong>سجل التشغيل والمفضلة ومواقع الاستئناف</strong> — تُخزن محليًا على جهازك فقط لتتذكر مكتبتك أين توقفت.</li>
+        <li><strong>سجل مشاهدة الفيديو عبر الإنترنت</strong> (عنوان الفيديو، المعرف، وقت المشاهدة) — يُخزن محليًا على جهازك فقط.</li>
+        <li><strong>سجل المتصفح (حتى 100 عنوان URL) والعلامات المرجعية</strong> من المتصفح داخل التطبيق — تُخزن محليًا على جهازك فقط.</li>
+        <li><strong>رمز PIN للخزنة الخاصة ورمز الاسترداد</strong> — يُخزنان كتجزئة SHA-256 مع ملح على جهازك فقط، ولا يُخزنان أبدًا كنص عادي ولا يُرسلان أبدًا.</li>
+        <li><strong>مفاتيح API التي يقدمها المستخدم</strong> (مثل مفتاح OpenSubtitles API) — تُخزن محليًا على جهازك.</li>
+        <li><strong>تحليلات الاستخدام</strong> — فتح التطبيق، مشاهدات الشاشة، أحداث التشغيل (تشغيل/إيقاف مؤقت/التالي/السابق) وعنوان ومدة الفيديو الذي تفتحه تُرسل إلى <strong>Firebase Analytics (Google)</strong> لتحسين التطبيق.</li>
+        <li><strong>تقارير الأعطال</strong> — تُرسل بيانات الأعطال الفنية (طراز الجهاز، إصدار نظام التشغيل، تتبعات المكدس) إلى <strong>Firebase Crashlytics (Google)</strong> لإصلاح الأخطاء.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>4. خدمات الطرف الثالث</h2>
+      <p>يستخدم CY Player خدمات الطرف الثالث التالية. قد تجمع هذه الخدمات بيانات الاستخدام كما هو موصوف في سياسات الخصوصية الخاصة بها. نحن لا نتحكم في ممارساتها الخاصة بالبيانات.</p>
+      <ul>
+        <li><strong>Firebase Analytics وCrashlytics (Google)</strong> — تحليلات الاستخدام وتقارير الأعطال الموضحة أعلاه.</li>
+        <li><strong>خدمات YouTube API</strong> — للبحث عن مقاطع الفيديو عبر الإنترنت وتشغيلها. تُرسل مصطلحات البحث الخاصة بك إلى Google. تخضع لشروط خدمة Google وسياسة الخصوصية الخاصة بها.</li>
+        <li><strong>OpenSubtitles API</strong> — لجلب ملفات الترجمة (ميزة اختيارية). يُرسل اسم ملف الفيديو ومفتاح API الخاص بك إلى OpenSubtitles للبحث عن الترجمة المطابقة.</li>
+        <li><strong>LibriVox API</strong> — للبحث عن الكتب الصوتية في المجال العام وبثها.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>5. تخزين البيانات والأمان</h2>
+      <ul>
+        <li>يتم تخزين جميع بيانات التطبيق محليًا على جهازك.</li>
+        <li>تستخدم الخزنة الخاصة تشفير SHA-256 للتحقق من رمز PIN.</li>
+        <li>يستخدم المصادقة البيومترية نظام KeyStore الأصلي لجهازك.</li>
+        <li>لا نحتفظ بنسخ احتياطية سحابية لبياناتك.</li>
+        <li>تبقى الملفات المنقولة إلى الخزنة الخاصة على جهازك، محمية برمز PIN الخاص بك.</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>6. خصوصية الأطفال</h2>
+      <p>CY Player غير موجه للأطفال دون سن 13 عامًا. نحن لا نجمع معلومات من الأطفال عن علم. إذا كنت تعتقد أن طفلاً قد زودنا بمعلومات، فيرجى الاتصال بنا وسنقوم بحذفها.</p>
+    </div>
+    <div class="section">
+      <h2>7. التغييرات على هذه السياسة</h2>
+      <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. استمرار استخدام التطبيق بعد التغييرات يشكل قبولاً للسياسة المحدثة. سنخطرك بالتغييرات المهمة داخل التطبيق.</p>
+    </div>
+    <div class="section">
+      <h2>8. الاتصال بنا</h2>
+      <p>لأي أسئلة حول سياسة الخصوصية هذه أو بياناتك، تواصل معنا عبر:</p>
+      <p><strong>المطور: Md Ismail</strong></p>
+      <p><strong>المنظمة: Cybrotechnology</strong></p>
+      <p><strong>البريد الإلكتروني: cybrotechnology1@gmail.com</strong></p>
+      <p><strong>الموقع الإلكتروني:</strong> <a href="https://mdiismaiofficial101.github.io/CybroTechnology/" target="_blank" rel="noopener" style="color:#a78bfa;text-decoration:underline;">mdiismaiofficial101.github.io/CybroTechnology</a></p>
+    </div>
+  </div>
+
+  <div class="footer">
+    CY Player &copy; 2026 &nbsp;|&nbsp; <span id="footer-note">Developed by Md Ismail — Cybrotechnology. All rights reserved</span>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.lang-btn');
+    var contents = document.querySelectorAll('.lang-content');
+
+    function switchLang(lang) {
+      buttons.forEach(function (b) {
+        b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+      });
+      contents.forEach(function (c) {
+        c.classList.toggle('active', c.id === 'lang-' + lang);
+      });
+      var el = document.getElementById('lang-' + lang);
+      if (el) {
+        document.documentElement.lang = lang;
+        document.documentElement.dir = el.getAttribute('dir') || 'ltr';
+      }
+      try {
+        localStorage.setItem('cy_lang', lang);
+      } catch (e) {}
+    }
+
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () { switchLang(b.getAttribute('data-lang')); });
+    });
+
+    var saved = null;
+    try { saved = localStorage.getItem('cy_lang'); } catch (e) {}
+    if (saved && document.getElementById('lang-' + saved)) {
+      switchLang(saved);
+    }
+  })();
+</script>
+
+</body>
+</html>
